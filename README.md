@@ -1,7 +1,7 @@
 scaleBgVideo
 ============
 
-scaleBgVideo is a simple tool to use an HTML5 video as a background. The tool scales the video on page load to fit the viewport window and any time the window is resized.
+scaleBgVideo is a simple jQuery tool to use an HTML5 video as a looping background image. The tool scales the video on page load to fit the viewport window and any time the window is resized.
 
 It is currently only intended for backgrounds that should fill the whole window.
 

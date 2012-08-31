@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'ballpark';
+  src: url('ballpark.eot?#iefix') format('embedded-opentype'),
+  url('ballpark.woff') format('woff'),
+  url('ballpark.ttf')  format('truetype'),
+  url('ballpark.svg#ballpark') format('svg');
+}
+
+@font-face {
+  font-family: 'Aaargh';
+  src: url('Aaargh.eot?#iefix') format('embedded-opentype'),
+  url('Aaargh.woff') format('woff'),
+  url('Aaargh.ttf')  format('truetype'),
+  url('Aaargh.svg#Aaargh') format('svg');
+}
+
+body {
+  margin: 0;
+}
+
+#about {
+  position: absolute;
+  width: 100%;
+  top: 6em;
+}
+
+#about h1 {
+  font-family: 'ballpark';
+  font-weight:normal;
+  text-align: center;
+  color: rgba(245, 152, 157, 1);
+  font-size:10em;
+  width: 100%;
+  margin:0 auto;
+  
+  -webkit-text-shadow: 0 0 .1em rgba(0,0,0,0.25);
+  -moz-text-shadow: 0 0 .1em rgba(0,0,0,0.25);
+  -o-text-shadow: 0 0 .1em rgba(0,0,0,0.25);
+  text-shadow: 0 0 .1em rgba(0,0,0,0.25);
+}
+
+#about div {
+  text-align:center;
+  display: block;
+  font-family: 'Aaargh';
+  font-size: 2em;
+  width: 10em;
+  margin: 2em auto;
+}
+
+#about a {
+  display: block;
+  width:auto;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, .5);
+  text-decoration:none;
+  padding: .125em .25em;
+  color: rgba(255,255,255,.75);
+  border-radius: .5em;
+
+  -webkit-box-shadow: 0 0 .25em rgba(0,0,0,0.25);
+  -moz-box-shadow: 0 0 .25em rgba(0,0,0,0.25);
+  -o-box-shadow: 0 0 .25em rgba(0,0,0,0.25);
+  box-shadow: 0 0 .25em rgba(0,0,0,0.25);
+
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+#about a:hover, #about a:focus {
+  color: rgba(0,0,0,.75);
+  background-color: rgba(0,191,243,.5);
+
+}
+
+#about a:hover, #about a:focus {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25);
+}

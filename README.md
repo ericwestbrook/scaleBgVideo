@@ -11,6 +11,8 @@ Usage:
 
 2) Add your video source directly after the head or your document or wherever else makes sense in your circumstances. Give the video element an ID of 'bgVideo'.
 
-3) If you want your video to be positioned statically, give it a class of 'staticBg'
+3) Add the desired attributes to your video tag. You will most likely want: preload="auto", autoplay, loop, & muted.
+
+4) If you want your video to be positioned statically, give it a class of 'staticBg'.
 
 That's it!
